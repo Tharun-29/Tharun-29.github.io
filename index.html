@@ -7,26 +7,33 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
 
     <title>Tharun V S-Potfolio</title>
-
+    
     <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/jumbotron/">
     <style>
       .bg-dar {
-         background-color: #34495E!important;
+         background-color: #E2810D!important;
       }
       .container img{
         margin: 20px;
       }
+      .center {
+            margin:auto !important; 
+      }
+      
     </style>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1dfd7ecbc3.js" crossorigin="anonymous"></script>
   </head>
 
-  <body>
+  <body class="w3-pale-green">
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dar">
       <a class="navbar-brand" href="#">THARUN</a>
@@ -67,11 +74,11 @@
     <main role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <div class="container">
-            <img src="img.jpg" alt="tharun" class="rounded-circle float-left">
-          <h1 class="display-3">It's me THARUN V S :)</h1>
-          <p>Hello and Welcome to my portfolio,I have passion to work in Web Technologies and enjoy my time.</p>
+      <div class="jumbotron bg-white w3-pane w3-black">
+        <div class="container w3-green">
+            <img src="img.jpg" alt="tharun" class="rounded-circle float-left w3-animate-zoom">
+          <h1 class="display-3 w3-animate-right color">It's me THARUN V S :)</h1>
+          <p class="w3-animate-zoom">Hello and Welcome to my portfolio,I have passion to work in Web Technologies and enjoy my time.</p>
           <p><a class="btn btn-primary btn-lg" href="tharun_cv.pdf" role="button">Access My Resume &raquo;</a></p>
         </div>
       </div>
@@ -79,21 +86,25 @@
       <div class="container">
         <!-- Example row of columns -->
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-3 w3-card w3-margin w3-hover-shadow w3-border w3-hover-border-red w3-animate-top w3-gray">
             <h2>My Skills</h2>
-            <p>I love to create a Website and have relevant skills to develop a website of my own . </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <p>I love to create a Website and have relevant skills to develop a website of my own .</p>
+            <i class="fab fa-html5 fa-4x"></i>
+            <i class="fab fa-css3-alt fa-4x"></i>
+            <i class="fab fa-js fa-4x"></i>
+            <i class="fab fa-bootstrap fa-4x"></i>
+            <i class="fab fa-python fa-4x"></i>
           </div>
-          <div class="col-md-4">
+          
+          <div class="col-md-3 w3-card w3-margin w3-hover-shadow w3-border w3-hover-border-red w3-animate-bottom w3-gray">
             <h2>My Experience </h2>
             <span class="glyphicon glyphicon-wrench"></span>
             <p>I have Created a Several Websites on my own and always trying to learn new things. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
-          <div class="col-md-4">
+
+          <div class="col-md-3 w3-card w3-margin w3-right w3-hover-shadow w3-border w3-hover-border-red w3-animate-right w3-gray">
             <h2>My Education</h2>
-            <p>I completed my UnderGraduates in Computer Science from Bangalore Karnataka.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <p>I'm pursuing my UnderGraduates in Computer Science from Bangalore Karnataka.</p>
           </div>
         </div>
 
@@ -111,7 +122,9 @@
     </main>
 
     <footer class="container">
-      <p>&copy; Tharun V S</p>
+      <p><span class="w3-tag w3-animate-zoom w3-large w3-black">
+        &copy; Tharun V S
+        </span></p>
     </footer>
 
     <!-- Bootstrap core JavaScript
